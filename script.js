@@ -3,6 +3,9 @@ const mole = document.querySelector(".mole");
 const restart = document.getElementById("restart");
 const timeCounter = document.getElementById("time");
 const scoreCounter = document.getElementById("score");
+const easy = document.getElementById("easy");
+const medium = document.getElementById("medium");
+const pro = document.getElementById("pro");
 
 let score = 0;
 let currentBox = 0;
@@ -59,6 +62,13 @@ function restartGame() {
     clearInterval(timeTimer);
     clearInterval(moleTimer);
     start();
+}
+
+function Settings() {
+    currnetTime--;
+    easy.addEventListener("click", moleTimer = setInterval(showMole, 1000));
+    medium.addEventListener("click", moleTimer = setInterval(showMole, 500));
+    pro.addEventListener("click", moleTimer = setInterval(showMole, 100));
 }
 
 restart.addEventListener("click", restartGame);

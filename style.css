@@ -67,3 +67,45 @@ h2{
     font-weight: 600;
     font-size: 2em;
 }
+
+.buttons{
+    padding: 10px;
+    margin: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    overflow: auto;
+
+}
+#easy{
+    padding: 10px 10px;
+    color: yellow;
+    background-color:darkgray;
+    border-color: darkgray;
+    border-radius: 5px;
+    font-size: 1em;
+
+}
+#medium{
+    padding: 10px 10px;
+    color: yellow;
+    background-color:darkgray;
+    border-color: darkgray;
+    border-radius: 5px;
+    font-size: 1em;
+
+}
+
+#pro{
+    padding: 10px 10px;
+    color: yellow;
+    background-color:darkgray;
+    border-color: darkgray;
+    border-radius: 5px;
+    font-size: 1em;
+
+}
+
+
+
